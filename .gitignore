@@ -1,0 +1,8 @@
+
+# Large model artifacts
+pretrained_models/
+*.pth
+*.pth.tar
+*.log
+wandb/
+__pycache__/
