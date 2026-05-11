@@ -10,10 +10,13 @@
     Georgia Institute of Technology (OLIVES Lab)
 </div>
 
-<div>
-    <h4 align="center">
-        • <a href="https://arxiv.org/abs/2605.01967" target='_blank'>ICML 2026</a> •
-    </h4>
+<div align="center">
+    <h3>
+        <b>Published at ICML 2026</b>
+    </h3>
+    <p>
+        [<a href="https://arxiv.org/abs/2605.01967" target='_blank'><b>Read the Paper Here</b></a>]
+    </p>
 </div>
 
 <div style="text-align:center">
@@ -75,13 +78,13 @@ cd HAC-rgb-flow-audio
 bash run_experiments.sh
 ```
 
-The unified scripts will execute 4 main blocks automatically:
-1. `Baseline Fusion (Standard Cross-Entropy)`
-2. `Baseline Fusion + MER-DG (Ours)`
-3. `SimMMDG Baseline`
-4. `SimMMDG + MER-DG (Ours)`
+By default, the scripts execute the following experiments sequentially:
+1. Baseline Fusion
+2. Baseline Fusion + MER-DG
+3. SimMMDG Baseline
+4. SimMMDG + MER-DG
 
-You can comment out the experiment blocks you do not wish to run inside the `.sh` file. Ensure you have properly logged into `wandb` to sync training metrics.
+Modify the script to isolate specific experiments. Ensure `wandb` is configured for metric logging.
 
 ---
 

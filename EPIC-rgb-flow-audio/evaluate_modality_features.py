@@ -109,7 +109,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--lmdb-path",
         type=str,
-        default="/home/yavuz/data/EPIC/frames_rgb_flow_lmdb/",
+        default="/path/to/dataset/EPIC/frames_rgb_flow_lmdb/",
         help="Path to LMDB directory when --use-lmdb is enabled.",
     )
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define paths and domains
-DATAPATH="/home/yavuz/data/EPIC/frames_rgb_flow/"
+DATAPATH="/path/to/dataset/EPIC/frames_rgb_flow/"
 SOURCE_DOMAINS="D1 D2"
 TARGET_DOMAIN="D3"
 

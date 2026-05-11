@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define paths and domains
-DATAPATH="/home/yavuz/data/HAC/frames_rgb_flow/"
+DATAPATH="/path/to/dataset/HAC/frames_rgb_flow/"
 SOURCE_DOMAINS="C A"
 TARGET_DOMAIN="H"
 
